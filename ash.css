@@ -1,0 +1,201 @@
+*{margin: 0; padding: 0; box-sizing: border-box}
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+
+header {background-color: rgb(24, 4, 36); width: 100vw; display: block;
+    position: sticky;}
+
+.h1{color: orange;
+font-size: 8ch;
+text-decoration: underline aqua;
+display: inline-block;
+margin: 0px 15px 0px 0px ;
+font-family: 'Rubik Moonrocks', cursive;}
+
+nav {display: inline-block;
+    position: sticky;}
+
+ul{display: inline-block;
+    position: sticky;}
+
+nav ul li { display: inline-block;
+padding: 18px;
+font-size: .7cm;
+font-family: 'Edu QLD Beginner', cursive;}
+
+nav ul li a { text-decoration: none;
+color: rgb(236, 28, 108);
+position: sticky;}
+
+nav ul li a:hover{font-size: 0.6cm;
+color: rgb(2, 137, 255);
+font-family: Castellar;}
+
+.a {display: inline-block;
+    position: sticky;}
+/* start */
+.slide {float:left;
+    width: 30%;
+    height: 500px;
+background-image: url("ashok.jpg");
+background-size: 100% 100%;
+animation: image 15s ease-in-out  infinite;}
+
+@keyframes image {
+    0% { background-image: url("ashok.jpg");}
+    25% { background-image: url("flag.jpg");}
+    50% { background-image: url("fort.jpg");}
+    75% { background-image: url("modi.jpg");}
+    100% { background-image: url("new.jpg");}
+    
+}
+.abt{background-color: rgb(0, 0, 0);
+height: 500px;}
+
+.cot { margin: 0px 0px 0px 420px ;}
+
+.at { font-size: 1cm;
+font-weight: 900;
+color: bisque;
+border: 1cm saddlebrown;
+margin: 0px 0px 0px 300px;}
+
+.about {display: flex;
+
+    height: 50vh;
+    width: 50vw;
+    color: rgb(235, 240, 245);
+    font-size: .5cm;
+    line-height: 1.7em;
+    font-family: Arima;
+        padding: 50px 20px 0px 140px;}
+
+       .kabt {width: 586px;
+        background-image: url("dr.jpg");
+        margin: 30px 0px 120px 0px ;
+       }
+
+        .sabt {font-size: 2cm; 
+        font-style: oblique 20deg;
+    color: rgb(42, 6, 245); }
+
+.social {background-image: url("sm.png");}
+
+.twitter { margin: 0px 0px 0px 50px ;
+display: inline-block;}
+
+.tube { margin: 0px 0px 0px 30px ;
+display: inline-block;}
+
+.mail {margin: 0px 0px 0px 29px;
+display: inline-block;}
+
+.sbtn{background-color: rgb(3, 26, 37);
+margin: 40px 50px 0px 50px ;}
+
+.tbtn {display: inline-block;}
+.tbtn a:hover{color: rgb(255, 0, 191);
+font-family: Matura MT Script Capitals;}
+
+.tbtn a {margin: 40px 0px 0px 65px ;
+font-size: 1.4cm;
+color: aqua;
+text-decoration: none;
+display: inline-block;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+
+.sub1 {font-size: .3cm;
+display: inline-block;}
+
+.ybtn { display: inline-block;}
+
+.ybtn a{margin: 40px 0px 0px 210px ;
+    font-size: 1.4cm;
+    color: rgba(255, 0, 0, 0.952);
+    text-decoration: none;
+    display: inline-block;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+.ybtn a:hover {color: rgb(255, 0, 191);
+    font-family: Matura MT Script Capitals;}
+
+    .sub2 { font-size: .3cm;
+    display: inline-block;}
+
+    .gbtn  { display: inline-block;}
+
+    .gbtn a {margin: 40px 0px 0px 310px ;
+        font-size: 1.4cm;
+        color: rgba(0, 162, 255, 0.589);
+        text-decoration: none;
+        display: inline-block;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+    .gbtn a:hover {color: rgb(255, 0, 191);
+        font-family: Matura MT Script Capitals;}
+
+    .smex { background-image: url("slf.jpg");
+    margin: 35px 0px 0px 0px;}
+
+    .tex { display: inline-block;}
+
+    .imgt { margin: 50px 0px 0px 35px;
+    display: inline-block;}
+
+    .imgtt { font-size: 1.2cm;
+    margin: 20px 0px 0px 50px;
+font-family: Algerian ;
+color: aquamarine;}
+
+    .yex {display: inline-block;}
+    
+    .yex iframe {margin: 0px 0px 0px 200px;
+    height: 620px;}
+
+    .imgyt { font-size: 1.2cm;
+        margin: 20px 0px 0px 130px;
+    font-family: Algerian ;
+    color: rgb(243, 2, 2);}
+
+    .f1 {font-size: .6cm;
+    font-family: Algerian;}
+
+    .in1 {margin: 0px 0px 0px 170px;}
+    .in3 {margin: 0px 0px 0px 40px;}
+    .in4 {margin: 0px 0px 0px 110px;}
+    .in5 {margin: 0px 0px 0px 160px;}
+    .in6 {margin: 0px 0px 0px 160px;}
+    .in7 {margin: 0px 0px 0px 100px;}
+    .in8 {margin: 0px 0px 0px 140px;}
+    .in9 {margin: 0px 0px 0px 140px;}
+    .in10 {margin: 0px 0px 0px 150px;}
+    .in11 {margin: 0px 0px 0px 190px;}
+    .in12 {margin: 0px 0px 0px 50px;}
+
+    .form {background-image: url("sky.jpg");
+    width: 19cm;
+display: inline-block;}
+
+.thanks {display: inline-block;
+width: 16.5cm;
+height: 15cm;
+background-image: url("night.jpg");
+margin: 0px 0px 0px 0px;}
+
+.thanks2 {display: flex;
+margin: 80px 0px 0px 70px;
+}
+
+.bing {margin: 30px 0px 0px 5% ;}
+.copy {background-color: rgb(1, 6, 8);
+height: 70px;
+color: aliceblue;
+display: flex;
+justify-content: center;
+text-align: end;}
+
+.name {position: fixed;
+display: inline-block;
+color: beige;
+font-size: .8cm;
+font-family: Old English Text MT;
+margin: 0px 0px 0px 215px ;}
